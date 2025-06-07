@@ -1,71 +1,36 @@
-Tipcaster is a Farcaster-native social tipping app that lets users send tips in MON (the Monad native token) directly through Frames — no wallet connection required.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This project enables seamless, gasless, one-click tipping to support creators and celebrate great casts in a decentralized, user-friendly way.
+## Getting Started
 
----
+First, run the development server:
 
-✨ Features
-
-⚡ Gasless tipping — users can send MON without signing or connecting wallets
-
-🧵 Farcaster Frames integration — tipping happens right in the feed
-
-💰 Monad-native tokens — tips are powered by Monad, optimized for low-cost and high-speed txs
-
-🎨 Modern UI — styled with Tailwind CSS and shadcn/ui, designed to match the Farcaster aesthetic
-
-🔒 No user setup required — frictionless UX for first-time users
-
-📈 Potential integrations — leaderboard, tip history, and on-chain proof
-
----
-
-🛠 Tech Stack
-
-Frontend: Next.js 14, React, Tailwind CSS, shadcn/ui
-
-Farcaster Integration: Frames via Neynar or custom serverless endpoint
-
-Blockchain: Monad (testnet or mainnet)
-
-Optional Backend: Relayer / tipping orchestrator (Node.js or serverless functions)
-
----
-
-🚀 Getting Started
-
-git clone https://github.com/your-username/tipcaster.git
-cd tipcaster
-npm install
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Update your .env file with any necessary keys (e.g., for relayers, Neynar, RPC endpoints).
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-📁 Project Structure
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-/components        → UI elements (button, card, frame)
-/pages             → App routes (tip frame, success)
-/lib or /utils     → Utility functions
-/public            → Static assets
-/styles            → Tailwind base config
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-🧪 Example Use Case
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-> A user sees a great cast. A “Tip” button appears via a Frame. They click, and MON is sent instantly — no wallet needed. The cast gets rewarded, the user feels good, and everyone wins.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
----
+## Deploy on Vercel
 
-📜 License
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-MIT
-
-
----
-
-🤝 Contributing
-
-Pull requests, suggestions, and feature ideas are welcome! Let’s build a better way to reward value onchain — one tip at a time.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
